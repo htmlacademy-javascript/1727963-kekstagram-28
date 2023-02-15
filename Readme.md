@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Наталия Беляева](https://up.htmlacademy.ru/javascript/28/user/1727963).
-* Наставник: `Неизвестно`.
+- Студент: [Наталия Беляева](https://up.htmlacademy.ru/javascript/28/user/1727963).
+- Наставник: [Юрий Белобородов](https://htmlacademy.ru/profile/id514591).
 
 ---
 
