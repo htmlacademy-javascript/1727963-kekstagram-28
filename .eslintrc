@@ -13,4 +13,4 @@ globals:
   Pristine: readonly
 
 extends:
-  "htmlacademy/vanilla"
+  'htmlacademy/vanilla'
