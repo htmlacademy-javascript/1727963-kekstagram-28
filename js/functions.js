@@ -10,14 +10,14 @@ const isPalindrom = (string) => {
   let reverseString = "";
   for (let i = tempString.length - 1; i >= 0; i--) {
     reverseString += tempString.at(i);
-
-    return tempString === reverseString;
   }
+
+  return tempString === reverseString;
 };
 
 //Функция, которая принимает строку, извлекает содержащиеся в ней цифры от 0 до 9
 
-const taketNumber = (string) => {
+const extractNumber = (string) => {
   let result = "";
 
   for (let i = 0; i < string.length; i++) {
@@ -32,13 +32,13 @@ const taketNumber = (string) => {
 //Функция, которая принимает три параметра: исходную строку, минимальную длину и строку с добавочными символами — и возвращает исходную строку, дополненную указанными символами до заданной длины
 
 const padStart = (string, minLength, pad) => {
-  const resuit = string;
-  while (resuit.length < minLength) {
-    const newResultLength = resuit.length + pad.length;
+  const result = string;
+  while (result.length < minLength) {
+    const newResultLength = result.length + pad.length;
     const actualPad =
       newResultLength <= minLength
         ? pad
         : pad.slice(0, minLength - newResultLength);
   }
-  return resuit;
+  return result;
 };
